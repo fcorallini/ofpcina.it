@@ -1,0 +1,10 @@
+/* Allinea il contenuto delle pagine con la stessa griglia Bootstrap del banner. */
+.article-wrap {
+  max-width: 100%;
+}
+
+@media (min-width: 576px) { .article-wrap { max-width: 540px; } }
+@media (min-width: 768px) { .article-wrap { max-width: 720px; } }
+@media (min-width: 992px) { .article-wrap { max-width: 960px; } }
+@media (min-width: 1200px) { .article-wrap { max-width: 1140px; } }
+@media (min-width: 1400px) { .article-wrap { max-width: 1320px; } }

@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section class="container py-5">
+  {{ with .Content }}<div class="lead section-intro mb-5">{{ . }}</div>{{ end }}
+  <div class="row g-4">
+  {{ range .Pages.ByDate.Reverse }}
+    <div class="col-md-6 col-lg-4"><article class="content-card h-100"><p class="card-kicker">{{ if eq .Section "eventi" }}APPUNTAMENTO{{ else if eq .Section "gallerie" }}GALLERIA{{ else }}ARCHIVIO{{ end }}</p><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>{{ with .Date }}<p class="card-date">{{ .Format "02.01.2006" }}</p>{{ end }}<a class="card-arrow" href="{{ .RelPermalink }}" aria-label="Apri {{ .Title }}">→</a></article></div>
+  {{ end }}
+  </div>
+</section>
+{{ end }}

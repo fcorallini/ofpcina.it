@@ -1,0 +1,99 @@
+baseURL = '/'
+languageCode = 'it'
+title = 'ofPCina'
+disableKinds = ['taxonomy', 'term', 'RSS', 'sitemap']
+
+[params]
+  description = 'Un laboratorio gratuito e condiviso per imparare ed aggiustare il proprio PC in compagnia.'
+  background_color_class = 'bg-dark-blue'
+  featured_image = '/media/wp-content/uploads/2019/08/hw-ui.jpg'
+  recent_posts_number = 6
+
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 10
+[[menu.main]]
+  name = 'Cosa siamo'
+  url = '/cosa-siamo/'
+  weight = 20
+[[menu.main]]
+  name = 'Chi siamo'
+  url = '/sample-page/'
+  weight = 30
+[[menu.main]]
+  name = 'Gallery'
+  identifier = 'gallery'
+  url = '#'
+  weight = 40
+[[menu.main]]
+  name = 'ofPCina'
+  url = '/ofpcina-2/ofpcina/'
+  parent = 'gallery'
+  weight = 10
+[[menu.main]]
+  name = 'Botteghe_di_natale'
+  url = '/ofpcina-2/botteghe_di_natale/'
+  parent = 'gallery'
+  weight = 20
+[[menu.main]]
+  name = 'CopyleftVSCopyright'
+  url = '/ofpcina-2/copyleftvscopyright/'
+  parent = 'gallery'
+  weight = 30
+[[menu.main]]
+  name = 'GoodCop-NaughtyCop'
+  url = '/ofpcina-2/goodcop-naughtycop/'
+  parent = 'gallery'
+  weight = 40
+[[menu.main]]
+  name = 'SERR'
+  url = '/ofpcina-2/settrifiuti/'
+  parent = 'gallery'
+  weight = 50
+[[menu.main]]
+  name = 'Spore2012'
+  url = '/ofpcina-2/spore2012/'
+  parent = 'gallery'
+  weight = 60
+[[menu.main]]
+  name = 'toolsbike'
+  url = '/ofpcina-2/toolsbike/'
+  parent = 'gallery'
+  weight = 70
+[[menu.main]]
+  name = 'Appuntamenti'
+  url = '/events/'
+  weight = 50
+[[menu.main]]
+  name = 'Notizie'
+  url = '/notizie/'
+  weight = 60
+[[menu.main]]
+  name = 'Sedi'
+  identifier = 'sedi'
+  url = '#'
+  weight = 70
+[[menu.main]]
+  name = 'Camere d’Aria'
+  url = 'https://cameredaria.net/ofpcina/'
+  parent = 'sedi'
+  weight = 10
+[[menu.main]]
+  name = 'Centro civico Bortolani'
+  url = '/centro-civico-bortolani/'
+  parent = 'sedi'
+  weight = 20
+[[menu.main]]
+  name = 'Contatti'
+  url = '/contatti/'
+  weight = 80
+[[menu.main]]
+  name = 'Materiali'
+  url = '/ritiro-materiali/'
+  weight = 45
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

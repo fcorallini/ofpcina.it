@@ -1,0 +1,23 @@
+.article-content .gallery-grid {
+  display: grid;
+  gap: .8rem;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  margin: 2rem 0;
+}
+
+.article-content .gallery-item {
+  aspect-ratio: 1 / .72;
+  background: #dce0d9;
+  display: block;
+  overflow: hidden;
+}
+
+.article-content .gallery-item img {
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  transition: transform .2s ease;
+  width: 100%;
+}
+
+.article-content .gallery-item:hover img { transform: scale(1.04); }

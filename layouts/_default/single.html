@@ -1,0 +1,6 @@
+{{ define "main" }}
+<article class="container article-wrap py-5">
+  {{ with .Date }}<p class="article-date">{{ .Format "02.01.2006" }}</p>{{ end }}
+  <div class="article-content">{{ .Content }}</div>
+</article>
+{{ end }}

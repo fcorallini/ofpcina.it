@@ -1,0 +1,23 @@
++++
+title = "Il diritto alla riparazione ed al software libero!"
+url = "/2025/02/il-diritto-alla-riparazione-ed-al-software-libero/"
+date = "2025-02-07"
+draft = false
++++
+
+Traduciamo da <https://www.fsf.org/blogs/community/the-right-to-repair-supports-software-freedom>
+
+Il diritto alla riparazione è importante per molte ragioni: la libertà innanzitutto, ma la riparabilità è anche fondamentale se vogliamo ridurre [le tonnellate di rifiuti elettronici](https://www.forbes.com/sites/energyinnovation/2024/03/10/right-to-repair-making-products-last-longer-saves-money-and-the-climate/) che produciamo e prenderci cura della terra che ci nutre. Inoltre, un ciclo di vita lungo per i nostri utensili contribuisce a rendere la vita più accessibile a livello di sussistenza.  
+Abbiamo bisogno di qualcosa di più della riparabilità, della sostenibilità e dell’accessibilità economica.
+
+Se vogliamo lottare efficacemente per il diritto alla riparazione, è importante capire che la non riparabilità è solo un sintomo; nella cultura tecnologica di oggi, la radice del problema è quasi sempre la mancanza di libertà del software. Quando il software non è libero, ci priva del diritto di studiare e modificare un dispositivo, impedendoci così di ripararlo. Anche se possiamo modificare il software non libero, non ci è consentito condividere questi miglioramenti con altri per aiutarli ad aggiornare o riparare il loro apparecchio.
+
+Se un dispositivo ha un software proprietario, non è di vostra proprietà, a prescindere dall’entità della somma pagata per l’iPhone, la Xbox, il Kindle o l’auto, nuovi o usati. Con il software proprietario, [il produttore impone](https://www.fsf.org/blogs/community/wendell-the-elf-and-the-shoetool) come, dove e per quanto tempo è possibile utilizzarlo. Questo è il motivo per cui insistiamo sul fatto che il software libero è un imperativo etico e per cui la Free Software Foundation (FSF) si rivolge in primo luogo al software non libero: perché è la causa principale della non riparabilità e di molti altri gravi problemi della cultura digitale odierna.
+
+Un esempio molto sfortunato e recente di una grave violazione del diritto alla riparazione è il “precipizio” di Windows 10: Microsoft interromperà il supporto per Windows 10 nell’ottobre del 2025 e lascerà migliaia, se non milioni, di persone e organizzazioni in difficoltà su come continuare a utilizzare i propri computer dopo Windows 10. Invece di offrire agli utenti un modo per continuare a utilizzare il computer esistente, [Microsoft sta spingendo gli utenti di Windows 10 a cestinare il dispositivo esistente e ad acquistare un PC Copilot Plus](https://www.theverge.com/2024/11/20/24301768/microsoft-windows-10-upgrade-prompt-copilot-plus-pcs). Questo disastro ha molte sfaccettature, una delle quali è la questione della gestione delle restrizioni digitali (DRM), che abbiamo affrontato durante [la Giornata internazionale contro i DRM (IDAD) del 2024](https://www.defectivebydesign.org/blog/idad_2024_dec_20_freedom_against_restriction).
+
+Lo scoglio di Windows 10 è solo un altro promemoria del fatto che **se volete davvero possedere un dispositivo, dovete assicurarvi che funzioni con software libero**, idealmente su hardware che rispetti la vostra libertà. Potreste scoprire che è sempre più difficile trovare hardware completamente libero. Per questo motivo è più importante che mai che ci impegniamo a sostenerlo.
+
+La FSF sostiene fermamente il movimento Right to Repair. Il diritto di modificare il software (o di riparare un dispositivo) è una delle quattro libertà per cui la comunità del software libero si batte da quarant’anni. Se immaginiamo la libertà del software come un edificio, il diritto alla riparazione è un pilastro che sostiene il tetto. Dal punto di vista del movimento del software libero, deve essere accompagnato dal diritto di utilizzare, studiare e condividere il software, altrimenti la struttura crollerà. La missione della FSF è garantire che la libertà del software sia sostenuta e protetta per sempre.
+
+[Siamo solidali con il movimento Right to Repair](https://www.fsf.org/campaigns/fight-to-repair), con chi si batte per l’ambiente e con tutte le iniziative che lavorano per un futuro migliore. Insieme a migliaia di sostenitori del software libero come voi, ci solleviamo contro le ingiustizie proprietarie per la visione di un mondo libero che include, ma alla fine va oltre, il diritto alla riparazione. Diffondete la notizia della necessità cruciale di un diritto alla riparazione della tecnologia da cui dipendiamo [condividendo il nostro video Fight to Repair](https://www.fsf.org/blogs/community/watch-fight-to-repair-demand-the-right-to-repair) su Peertube.

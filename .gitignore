@@ -1,0 +1,7 @@
+# Output generato da Hugo
+public/
+resources/
+
+# File locali di sviluppo
+.hugo_build.lock
+.DS_Store

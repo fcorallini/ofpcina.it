@@ -1,0 +1,13 @@
+{{ $folder := .Get "folder" }}
+{{ $directory := printf "static/media/wp-content/gallery/%s" $folder }}
+{{ $extensions := slice ".jpg" ".jpeg" ".png" ".webp" }}
+<div class="gallery-grid" aria-label="Galleria fotografica">
+  {{ range readDir $directory }}
+    {{ if and (not .IsDir) (in $extensions (lower (path.Ext .Name))) }}
+      {{ $image := printf "/media/wp-content/gallery/%s/%s" $folder .Name }}
+      <a class="gallery-item" href="{{ $image }}">
+        <img src="{{ $image }}" alt="{{ replaceRE "[-_]" " " (strings.TrimSuffix (path.Ext .Name) .Name) }}" loading="lazy">
+      </a>
+    {{ end }}
+  {{ end }}
+</div>

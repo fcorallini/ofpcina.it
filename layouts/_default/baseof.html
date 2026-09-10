@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/ofpcina.css">
+    <link rel="stylesheet" href="/css/dropdown.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/gallery.css">
+    <link rel="stylesheet" href="/css/balotta.css">
+    {{/* Widget Balotta disattivato temporaneamente.
+    <script defer src="https://balotta.org/gancio-events.es.js"></script>
+    */}}
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-ofpcina sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="/">of<span>PC</span>ina</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Apri navigazione"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="{{ .URL }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ .Name }}</a><ul class="dropdown-menu dropdown-menu-dark">{{ range .Children }}<li><a class="dropdown-item" href="{{ .URL }}"{{ if hasPrefix .URL "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Name }}</a></li>{{ end }}</ul></li>
+            {{ else if not .Parent }}
+            <li class="nav-item"><a class="nav-link" href="{{ .URL }}"{{ if hasPrefix .URL "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Name }}</a></li>
+            {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </nav>
+    {{ block "hero" . }}
+    <header class="page-hero"><div class="container"><p class="eyebrow">OFFICINA DIGITALE · BOLOGNA</p><h1>{{ if .IsHome }}Riparare insieme,<br><em>imparare facendo.</em>{{ else }}{{ .Title }}{{ end }}</h1></div></header>
+    {{ end }}
+    <main>{{ block "main" . }}{{ end }}</main>
+    <footer class="footer-ofpcina mt-5"><div class="container py-5 d-md-flex justify-content-between gap-4"><div><a class="footer-brand" href="/">ofPCina</a><p class="mb-0 mt-2">Un laboratorio gratuito e condiviso per dare nuova vita ai computer.</p></div><p class="mb-0 text-md-end">Bologna<br><a href="/contatti/">Contatti e orari</a></p></div></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+.nav-ofpcina .dropdown-menu {
+  background: var(--ink);
+  border: 1px solid rgba(255, 255, 255, .18);
+  border-radius: 0;
+  margin-top: .4rem;
+}
+
+.nav-ofpcina .dropdown-item {
+  color: #fff;
+  font-family: "DM Mono", monospace;
+  font-size: .76rem;
+  padding: .65rem 1rem;
+  text-transform: uppercase;
+}
+
+.nav-ofpcina .dropdown-item:focus,
+.nav-ofpcina .dropdown-item:hover {
+  background: var(--blue);
+  color: var(--acid);
+}
