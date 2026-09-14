@@ -18,7 +18,7 @@ Se proprio non hai nessun progettino avviato o qualche circuitino da finire.. no
 
 “Saldati la tua lucina a led alimentata da USB”
 
-[![DSCF2012](/wp-content/gallery/toolsbike/thumbs/thumbs_DSCF2012.jpg)](/wp-content/gallery/toolsbike/DSCF2012.jpg)
+[![DSCF2012](/media/wp-content/gallery/toolsbike/thumbs/thumbs_DSCF2012.jpg)](/media/wp-content/gallery/toolsbike/DSCF2012.jpg)
 
 ps: sono graditi vecchi cavi USB!
 
